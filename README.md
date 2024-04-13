@@ -29,17 +29,19 @@
 
 1. 라이브러리를 불러옵니다. 파이썬 기본 내장 라이브러리이므로 별도의 다운로드가 필요 없습니다. (os, shutil은 폴더와 파일을 다루는 라이브러리, fnmatch는 파일 이름에 특정 단어가 있는지 검사할 수 있는 도구가 있는 라이브러리)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c972f01-7060-44c0-99fc-5174baa5e84e/42477dc3-ec17-4fed-9397-48406d8b84e6/Untitled.png)
+    ![Untitled](https://github.com/PeterPandaChoi/VentureNameAssign/assets/29675266/6a41f076-9536-4b1d-9323-8826a1740770)
     
 2. 폴더 경로, 프로그램 이름을 변수로 지정해주고 현재 폴더에 있는 파일들을 리스트로 저장합니다. 그리고 현재 프로그램의 이름을 폴더_리스트에서 빼줍니다. (안그러면 프로그램 파일도 복사됩니다.)
 그리고 ‘정리’라는 폴더를 생성해 주고, 이미 생성된 경우 위에 폴더_리스트에서 제거해줍니다.
 (안그러면 이 폴더도 복사됩니다. = 골치 아픈 상황이 발생할 수 있음)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c972f01-7060-44c0-99fc-5174baa5e84e/6a890db6-8d94-4e95-ab0b-8679e4700e47/Untitled.png)
+    ![Untitled (1)](https://github.com/PeterPandaChoi/VentureNameAssign/assets/29675266/55562585-9abc-406d-81a5-d2c4437d09b2)
+
     
 3. 실제 작동하는 부분입니다.
 폴더에 있는 파일을 순서대로 확인하면서 해당하는 단어가 있는지 보고 해당한다면 알맞게 앞에 [필수][추가]와 번호를 붙여줍니다.
 
-   ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c972f01-7060-44c0-99fc-5174baa5e84e/e23e3d4c-f8d5-436e-a6d3-c6d36839ba83/Untitled.png)
+   ![Untitled (2)](https://github.com/PeterPandaChoi/VentureNameAssign/assets/29675266/07a54e1b-5f53-4548-9077-174e8b6660ee)
+
 
 4. 끝
